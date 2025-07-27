@@ -20,8 +20,6 @@ function App() {
           <Skills title={"React"} expEarned={40}/>
           <Skills title={"CSS"} expEarned={90}/>
           <Skills title={"PHP"} expEarned={80}/> 
-          <Skills title={"Wordpress"} expEarned={20}/> 
-          <HookTest />
         </div>
         {/* Adicionar campo de download do CV */}
         {/* Link linkedin e github */}
