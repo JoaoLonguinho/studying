@@ -7,6 +7,7 @@ import MainText from './components/MainText';
 import MainTittle from './components/MainTittle';
 import Skills from "./components/Skills";
 import SecondMainTittle from './components/SecondMainTittle';
+import HookTest from './components/HookTest';
 
 function App() {
   return (
@@ -18,7 +19,13 @@ function App() {
           <Skills title={"JavaScript"} expEarned={70}/>
           <Skills title={"React"} expEarned={40}/>
           <Skills title={"CSS"} expEarned={90}/>
+          <Skills title={"PHP"} expEarned={80}/> 
+          <Skills title={"Wordpress"} expEarned={20}/> 
+          <HookTest />
         </div>
+        {/* Adicionar campo de download do CV */}
+        {/* Link linkedin e github */}
+        {/* Descrição de atividades */}
         <div>
           <ProfilePic profilePicLink={profilePicLink} />
           <MainTittle title={"Sou o João Longuinho"}/>
