@@ -1,0 +1,24 @@
+.lofi-button {
+  background-color: #a78bfa; /* Roxo lavanda */
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  box-shadow: 0 6px 12px rgba(167, 139, 250, 0.4);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.lofi-button:hover {
+  background-color: #8b5cf6; /* Um tom roxo um pouco mais intenso */
+  box-shadow: 0 8px 16px rgba(139, 92, 246, 0.5);
+  transform: translateY(-2px);
+}
+
+.lofi-button:active {
+  transform: translateY(1px);
+  box-shadow: 0 4px 8px rgba(139, 92, 246, 0.3);
+}
