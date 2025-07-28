@@ -33,7 +33,8 @@ function App() {
           {/* <GeradorDeProjetosIA /> */}
         </div>
         <div>
-          <DownloadArea tituloAba={"Area de downloads"}/>
+          <DownloadArea tituloAba={"Area de downloads"}/> 
+          {/* <DownloadArea tituloAba={"Quer conhecer mais do meu trabalho? Segue o link de um projeto meu"}/> Verificar ajuste como Rael informou*/} 
         </div>
       </div>
     </div>
